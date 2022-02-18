@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         buttonP2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent otherActivity = new Intent(getApplicationContext(), MapsActivity.class);
+                Intent otherActivity = new Intent(getApplicationContext(), TrackerActivity.class);
                 startActivity(otherActivity);
                 finish();
             }
